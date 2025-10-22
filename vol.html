@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join as a Volunteer | KINDHOPE</title>
+  <link rel="stylesheet" href="vol.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to KINDHOPE</h1>
+    <nav>
+    <a href="home.html">Home</a>
+    <a href="support.html">Support</a>
+    <a href="vol.html">Volunteer</a>
+    <a href="contact.html">Contact</a>
+    <a href="donate.html">Donate</a>
+    </nav>
+  </header>
+
+  <section class="volunteer-section">
+    <div class="volunteer-text">
+      <h2>Join as a Volunteer</h2>
+      <ul>
+        <li>Register to help children in need.</li>
+        <li>Choose your preferred volunteering activities.</li>
+        <li>Work with local orphanages and spread smiles.</li>
+        <li>Receive updates about upcoming events.</li>
+      </ul>
+
+      <div class="volunteer-images">
+        <img src="aa.webp" alt="Volunteer Image 1">
+        <img src="bb.jpeg" alt="Volunteer Image 2">
+      </div>
+    </div>
+
+    <div class="volunteer-form">
+      <h3>Select how you’d like to volunteer:</h3>
+      <form id="volunteerForm">
+        <label><input type="checkbox" name="volunteer" value="Teaching Kids"> Teaching Kids</label><br>
+        <label><input type="checkbox" name="volunteer" value="Event Support"> Event Support</label><br>
+        <label><input type="checkbox" name="volunteer" value="Orphanage Visits"> Orphanage Visits</label><br>
+        <label><input type="checkbox" name="volunteer" value="Fundraising Activities"> Fundraising Activities</label><br><br>
+
+        <h4>Availability:</h4>
+        <label><input type="checkbox" name="days" value="Weekdays"> Weekdays</label><br>
+        <label><input type="checkbox" name="days" value="Weekends"> Weekends</label><br><br>
+        <button type="button" onclick="showMessage()">Submit</button>
+  
+      </form>
+
+      <p id="message" class="hidden"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p> 2025 KINDHOPE | Spreading smiles</p>
+  </footer>
+ 
+  <script src="style.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | KINDHOPE</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to KINDHOPE</h1>
+    <nav>
+      <ul>
+        <a href="home.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="vol.html">Volunteer</a>
+        <a href="contact.html">Contact</a>
+        <a href="donate.html">Donate</a>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Please fill in the form below:</p>
+
+    <form id="contactForm">
+      <br><label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required></br>
+
+      <br><label for="Email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required></br>
+
+      <br><label for="Message">Message:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea></br>
+
+      <br><button type="submit">Send Message</button>
+      <p id="responseMsg" class="hidden"></p></br>
+    </form>
+  </section>
+ 
+  <footer>
+    <p> 2025 KINDHOPE | Spreading smiles</p>
+  </footer>
+  
+  <script src="style.js"></script>
+</body>
+</html>
